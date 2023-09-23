@@ -1,0 +1,19 @@
+first time publish 
+Decide on package name and confirm that it is unique in public npm registry
+Install Node.js (and npm)
+Create a directory for your npm package and work from within it
+Run `npm init` to create 'package.json'
+Add package dependencies (if any) to 'package.json'
+Add your Javascript code
+Run `npm login` to login to npm registry (create an account if you don't have one)
+Run `npm publish` to share your package with the world
+Configure `npm` to publish to a private repository (if desired)
+=====================================================
+npm init
+npm login
+npm publish
+
+=====================================================
+update npm:
+update version
+npm publish

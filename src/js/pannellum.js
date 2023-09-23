@@ -462,6 +462,8 @@ function init() {
             }
             xhr.responseType = 'blob';
             xhr.setRequestHeader('Accept', 'image/*,*/*;q=0.9');
+            // add for bug :has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+            xhr.setRequestHeader("cache-control", "no-cache");
             xhr.withCredentials = config.crossOrigin === 'use-credentials';
             xhr.send();
         }
